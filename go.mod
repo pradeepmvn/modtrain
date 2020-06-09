@@ -4,6 +4,7 @@ go 1.14
 
 require (
 	cloud.google.com/go/bigtable v1.1.0
+	cloud.google.com/go/bigquery v1.0.1
 	cloud.google.com/go/pubsub v1.1.0
 	cloud.google.com/go/storage v1.4.0
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.1
@@ -36,6 +37,12 @@ require (
 	google.golang.org/grpc v1.29.1
 	gopkg.in/yaml.v3 v3.0.0-20190905181640-827449938966
 	gotest.tools v2.2.0+incompatible
+	github.com/envoyproxy/protoc-gen-validate v0.1.0
+	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
+	github.com/soheilhy/cmux v0.1.4
+	github.com/stretchr/testify v1.4.0
+	github.com/xmlking/logger v0.1.5
+	github.com/xmlking/logger/zerolog v0.1.5
 )
 
 replace (
