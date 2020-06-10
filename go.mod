@@ -3,10 +3,10 @@ module github.com/pradeepmvn/modtrain
 go 1.14
 
 require (
-	cloud.google.com/go/bigtable v1.3.0
-	cloud.google.com/go/bigquery v1.8.0
-	cloud.google.com/go/pubsub v1.4.0
-	cloud.google.com/go/storage v1.9.0
+	cloud.google.com/go/bigtable v1.1.0
+	cloud.google.com/go/bigquery v1.0.1
+	cloud.google.com/go/pubsub v1.0.1
+	cloud.google.com/go/storage v1.4.0
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.1
 	github.com/bluele/gcache v0.0.0-20190518031135-bc40bd653833
 	github.com/clbanning/mxj v1.8.4
